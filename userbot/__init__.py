@@ -80,7 +80,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN") or None
 UPSTREAM_REPO_URL = (
     os.environ.get("UPSTREAM_REPO_URL") or "https://github.com/KenHV/KensurBot.git"
 )
-UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH") or "sql-extended"
+UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH") or "experimental"
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE") or "False")
